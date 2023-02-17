@@ -1,2 +1,2 @@
-# myfolio
+# portfolio
 My portfolio site
