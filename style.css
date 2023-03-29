@@ -15,18 +15,18 @@
 /* Custom Fonts */
 @font-face {
   font-family: "Inter";
-  src: url("/assets/fonts/Inter-VariableFont_slnt_wght.ttf") format("truetype");
+  src: url("assets/fonts/Inter-VariableFont_slnt_wght.ttf") format("truetype");
 }
 @font-face {
   font-family: "Roboto Slab";
-  src: url("/assets/fonts/RobotoSlab-VariableFont_wght.ttf") format("trutype");
+  src: url("assets/fonts/RobotoSlab-VariableFont_wght.ttf") format("trutype");
 }
 
 body {
   height: 100%;
   width: 100%;
   font: 1rem/1.4 "Inter", "Roboto Slab", Arial, Helvetica, Verdana, sans-serif;
-  background-image: url("/assets/img/background.jpg");
+  background-image: url("assets/img/background.jpg");
   /* background-color: #422040; */
   background-position-x: center;
   background-position-y: top;
