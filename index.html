@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Area-->
+    <header>
+        <section class="logo">
+            <h2>Exploration</h2>
+            <h4>Portfolio of my works</h4>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <section id="portfolio">
+            <div id="container">
+    
+    
+                <input hidden type="radio" name="carousel-control" id="button_a" checked/>
+                <input hidden type="radio" name="carousel-control" id="button_b"/>
+                <input hidden type="radio" name="carousel-control" id="button_c"/>
+                <input hidden type="radio" name="carousel-control" id="button_d"/>            
+                        
+                
+                <div id="carousel">
+                    <div class="p-wrapper">
+                                
+                        <section class="panel_a">
+                            <h1>Some of my Projects</h1>
+                            <h2>Web apps with CRUD functionality</h2>
+                            <p>Created with PHP, NodeJS, Express, EJS, MySQL & SASS</p>
+                            <img src="/assets/img/lus.jpg" alt="1" srcset="">
+                        </section>
+                                
+                        <section class="panel_b">
+                            <h1>Some of my Projects</h1>
+                            <h2>Web apps with CRUD functionality</h2>
+                            <p>Created with PHP, NodeJS, Express, EJS, MySQL & SASS</p>
+                            <img src="/assets/img/blood.jpg" alt="1" srcset="">
+                        </section>
+                                
+                        <section class="panel_c">
+                            <h1>Some of my Projects</h1>
+                            <h2>Web apps with CRUD functionality</h2>
+                            <p>Created with PHP, NodeJS, Express, EJS, MySQL & SASS</p>
+                            <img src="/assets/img/contact.PNG" alt="1" srcset="">
+                        </section>
+                                
+                        <section class="panel_d">
+                            <h1>Some of my Projects</h1>
+                            <h2>Web apps with CRUD functionality</h2>
+                            <p>Created with PHP, NodeJS, Express, EJS, MySQL & SASS</p>
+                            <img src="/assets/img/doctor.jpg" alt="1" srcset="">
+                        </section>
+                                
+                    </div> <!-- // .p-wrapper -->
+                </div> <!-- // #carousel -->            
+                        
+                
+                <div id="navigation">
+                    <label for="button_a" class="label_a"> <span>1</span> </label>
+                    <label for="button_b" class="label_b"> <span>2</span> </label>
+                    <label for="button_c" class="label_c"> <span>3</span> </label>
+                    <label for="button_d" class="label_d"> <span>4</span> </label>
+                </div> <!-- // #navigation -->               
+                
+            </div> <!-- // #container -->
+        </section>
+
+        <br> <br>
+
+        <section id="about">
+            <center><h1> About Me </h1>
+            <hr>
+            <p>Hi, my name is M.R. Chowdhury and I am a Web Designer & Developer based in Sylhet, Bangladesh.</p>
+            <p> I love crafting beautiful web pages in  HTML5, CSS3 and JavaScript.</p>
+            <p>My other skills include back-end development using NodeJS, PHP, MySQL, MongoDB.</p>
+            <p>If you want to hire me or just want to talk, <a href="#footer">connect</a> with me.</p>
+            </center>
+        </section>
+
+        <br> <br>
+
+        <section id="contact">
+            <center><h1>Contact Me</h1>
+                <hr>
+                <form action="#" method="post">
+                    <label for="inputName">Full name</label>
+                    <input class="input" type="text" placeholder="Your Name" required />
+                    <br>
+                    <label for="inputMail">Email Address</label>
+                    <input class="input" type="email" placeholder="email@mail.com" required />
+                    <br>
+                    <label for="inputMessage">Your Message</label>
+                    <textarea class="input" name="message" cols="30" rows="8" placeholder="Your Message" required></textarea>
+                    <br>
+                    <button class="btn" type="submit" value="Send">Send</button>
+                    <br>
+                </form>
+            </center>
+        </section>
+
+        <br>
+    </main>
+
+    <!-- Footer Area -->
+    <section id="footer">
+        <h3>
+            <a href="http://linkedin.com/in/mr-chowdhury">Linkedin</a> | <a href="http://mrct.github.io">GitHub</a>
+        </h3>
+        <h4>
+            Portfolio &copy; 2023 
+        </h4>
+    </section>
+</body>
+
+</html>
